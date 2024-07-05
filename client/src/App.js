@@ -20,7 +20,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route
-            path="/bookingcar"
+            path="/booking/:carid"
             element={<ProtectedRoute component={<BookingCar />} />}
           />
         </Routes>
